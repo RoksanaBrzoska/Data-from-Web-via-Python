@@ -1,4 +1,5 @@
 from urllib.request import urlopen
+
 response = urlopen('https://aniagotuje.pl/przepis/pad-thai')
 html = response.read()
 print(html)
